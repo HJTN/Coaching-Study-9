@@ -10,4 +10,5 @@ def merge_dict(dict_first: dict, dict_second: dict):
     
     return dict_first
 
-print(merge_dict(dict_first, dict_second))
+result = merge_dict(dict_first, dict_second)
+print(sorted(result.items()))
